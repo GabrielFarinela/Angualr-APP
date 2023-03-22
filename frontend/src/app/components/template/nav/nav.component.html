@@ -1,0 +1,26 @@
+<div>
+    <mat-sidenav-container class="container">
+        <mat-sidenav #snav class="sidenav" mode="side" opened="true" fixedInViewport="true" fixedTopGap="45">
+            <mat-nav-list class="nav-list">
+                <a mat-list-item routerLink="/">
+                    <i class="material-icons cor-icones">
+                        dashboard
+                    </i >
+                    DASH
+                </a>
+                <a class="ultimo" mat-list-item routerLink="/users">
+                    <i class="material-icons cor-icones">
+                        people
+                    </i>
+                    Usuários
+                </a>
+            </mat-nav-list>
+        </mat-sidenav>
+        <mat-sidenav-content class="content">
+            <button class="menu" mat-icon-button (click)="snav.toggle()">
+                <mat-icon class="icone toolbar-a">menu</mat-icon>
+            </button>
+            <router-outlet></router-outlet>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

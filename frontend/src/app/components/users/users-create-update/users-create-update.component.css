@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+mat-card-title {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form {
+    margin-left: 330px;
+    max-width: 400px;
+}
+
+.botao-salvar, 
+.botao-atualizar {
+    margin-left: 116px;
+}
+
+.form-create {
+    margin: 0px;
+} 

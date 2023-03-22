@@ -1,0 +1,31 @@
+mat-nav-list {
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+}
+
+.sidenav {
+    background-color: #3f51b5;
+    width: 220px;
+    border-right: 4px solid black;
+}
+
+.sidenav a {
+    color: black;
+}
+
+.sidenav i {
+    padding-right: 20px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.ultimo {
+    border-bottom: 4px solid black;
+}
+
+.menu{
+    margin-bottom: 30px;
+}

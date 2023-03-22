@@ -1,0 +1,31 @@
+<div class="cards">
+  <mat-card class="card" id="card1">
+    <mat-card-header class="header">
+      <mat-card-title class="titulo">
+        {{ title1 }} 
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      {{ content1 }}
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card" id="card2">
+    <mat-card-header class="header">
+      <mat-card-title class="titulo">
+        {{ title2 }}
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div>
+        <google-chart
+          [type]="chartData.type" 
+          [data]="chartData.data" 
+          [columns]="chartData.columnNames" 
+          [options]="chartData.options" 
+          [width]="chartData.width"
+          [height]="chartData.height">
+        </google-chart>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
